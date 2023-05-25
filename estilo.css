@@ -8,8 +8,9 @@
     display: grid;
     /*grid-column: 3;
     grid-row: 1;*/
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     border: 1px solid black;
+    height: 99.8vh;
 }
 
 .grid-container div{
@@ -17,17 +18,21 @@
 }
 
 #verde:first-child{
-    padding: 100px;
     background-color: green;
 }
 
-#blanco:nth-child(2){
-    padding: 100px;
-    background-color: white;
-}
 
 #rojo:last-child{
-    padding: 100px;
     background-color: red;
 
+}
+#blanco:nth-child(2){
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+#img{
+    width: 200px;
+    height: 200px;
 }
