@@ -4,28 +4,30 @@
 
 .grid-container{
 
+
     display: grid;
-    grid-column: 3;
-    grid-row: 1;
+    /*grid-column: 3;
+    grid-row: 1;*/
+    grid-template-columns: auto auto auto;
     border: 1px solid black;
 }
 
 .grid-container div{
-    display: grid;
     background-color: white;
 }
 
-.verde:first-child{
-    display: grid;
+#verde:first-child{
+    padding: 100px;
     background-color: green;
 }
 
-.blanco:nth-child(2){
-    display: grid;
+#blanco:nth-child(2){
+    padding: 100px;
     background-color: white;
 }
 
-.rojo:last-child{
-    display: grid;
+#rojo:last-child{
+    padding: 100px;
     background-color: red;
+
 }
