@@ -1,0 +1,22 @@
+*{
+    padding: 0%;
+}
+
+.grid-container{
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+}
+
+#verde{
+    background-color: green;
+}
+
+#blanco{
+    background-color: white;
+}
+
+#rojo{
+    background-color: red;
+}
