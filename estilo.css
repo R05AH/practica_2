@@ -1,22 +1,27 @@
 *{
-    padding: 0%;
+    margin: 0%;
 }
 
 .grid-container{
 
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: auto;
+    grid-template-rows: auto auto auto;
+    border: 1px solid black;
 }
 
 #verde{
+    display: grid;
     background-color: green;
+
 }
 
 #blanco{
+    display: grid;
     background-color: white;
 }
 
 #rojo{
+    display: grid;
     background-color: red;
 }
